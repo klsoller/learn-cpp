@@ -1,6 +1,6 @@
 // Main project file to work with my other files.
 
-#include "ch2.1.cpp"
+#include <iostream>
 
 int main()
 {

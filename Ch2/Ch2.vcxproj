@@ -127,8 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ch2.1.cpp" />
-    <ClCompile Include="ch2.2.cpp" />
+    <ClCompile Include="ch2.1" />
+    <ClCompile Include="ch2.2" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
