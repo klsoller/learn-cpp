@@ -19,14 +19,17 @@ void doA()
 	std::cout << "Ending doA()\n";
 }
 
-void main() // I guess this main function does not have to have an 'int' return.
-{
-	//data
-	std::cout << "Starting doPrint():\n";
-	doPrint();	//	Interrupt main() by making a function call to doPrint().
-	doA();		//	Start nested functions by calling doA().
-	doPrint();	//	Call doPrint a second time.
-	std::cout << "Ending main(). \n";
 
-	//return 0;
-}
+//
+//void main() // I guess this main function does not have to have an 'int' return.
+//{
+//	//data
+//	std::cout << "Starting doPrint():\n";
+//	doPrint();	//	Interrupt main() by making a function call to doPrint().
+//	doA();		//	Start nested functions by calling doA().
+//	doPrint();	//	Call doPrint a second time.
+//	std::cout << "Ending main(). \n";
+//
+//	//return 0;
+//}
+//
