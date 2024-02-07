@@ -1,5 +1,5 @@
 // file structure from memory
-
+/*
 #include <iostream>
 
 void doPrint()
@@ -33,3 +33,4 @@ void doA()
 //	//return 0;
 //}
 //
+*/
