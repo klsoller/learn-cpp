@@ -48,3 +48,7 @@ https://www.youtube.com/watch?v=etHfCFwH6MY
 
 // CTRL + T // Search for Files, Types, Classes types in your solution
 // 
+
+//	OTHER SHORTCUTS
+//	CTRL +  ENTER,			//	'\n' of code BEFORE this line.
+//	CTRL + SHIFT + ENTER.	//	'\n' of code AFTER this line.
