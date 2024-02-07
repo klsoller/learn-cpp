@@ -1,6 +1,11 @@
 Help website video for all of these tips and tricks
 https://www.youtube.com/watch?v=etHfCFwH6MY
 
+// TOTURIAL				-- WHAT, HOW, WHY OF COMMENTING --
+// LIBRARY LEVEL:		WHAT, the program does
+// FUNCTION LEVEL:		HOW, the code accomplishes a goal
+// STATEMENT LEVEL:		WHY, the code is doing something
+
 // Multi-line Edit -- Shift + Alt + UP -- This edits multiple lines at the same time.
 // Multi-line Edit -- Shift + Alt + UP -- This edits multiple lines at the same time.
 // Multi-line Edit -- Shift + Alt + UP -- This edits multiple lines at the same time.
