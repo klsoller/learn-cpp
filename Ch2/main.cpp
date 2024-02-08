@@ -18,6 +18,11 @@
 #include <iostream>//	WHY: Used for console I/
 #include <cstdlib>	//	WHY: Used for main() returns, EXIT_SUCCESS.
 
+// TEST DECLARATION: This is a declaration used to call a function in another file.
+void Log(const char* message);
+//	void Log(const char* );	//	You actually don't need to define the message here.
+
+
 int getValueFromUser2()
 {
 	std::cout << "Enter and Integer: ";
@@ -77,6 +82,7 @@ int multiply(int a, int b)
 
 int main()
 {
+	Log("Hello World to LOG FUNCTION");
 	//	int num{ getValueFromUser2() };
 	//	printDouble(num);
 	printDouble(getValueFromUser2());	//	Combine the above two lines of code.
