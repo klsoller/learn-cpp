@@ -133,6 +133,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="..\Programming Principles.txt" />
     <Text Include="ch2.2.txt" />
     <Text Include="ShortCuts.txt" />
   </ItemGroup>

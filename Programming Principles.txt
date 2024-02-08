@@ -1,0 +1,117 @@
+SOLID PRINCIPLES:
+1. Programming Standards
+2. Principles: guide/philosophies to writting code
+(see S.O.L.I.D. below)
+
+S: Single Responsibility
+	Break up code, in to modules of 1 	responsibility each. If you have a class with 	seperate responsibility, you should split it 	up into seperate classes. 	(Repository/Validator/PasswordGenerator)
+O: Open/Closed
+	Design modules to add new functionality 	without having to change it. Extend it by 	wrapping it , etc. Keep it locked when 	finished to prevent it from breaking the 	code.
+L: Liskov Substitution
+	Only extend modules when it is only the same, 	at heart. (Hexagon to 6 sided start.) Legacy 	protection.
+I: Interface Segretation
+	Modules shouldn't need to know about 	functions it doesn't use. Split modules into 	smaller abstrations called interfaces. (e.g. 	DatabaseQuery, DatabaseMutation.)
+D: Dependency Inversion
+	Instead of talking directly, talk abstractly 	by the interfaces we define. Isolates moduels 	for swapped parts.
+
+3. PATTERNS
+--CreationalPatterns: (E.G. Factory Method) 	Requirements into modules that aren't the 	same type
+--Structural Patterns: Organize & manipulate 	objects. (e.g. Adapter Pattern. Wrap and 	adapt interface to what another module needs.
+--Behavioral Pattern: Behave and functions with 	other parts of the code. (e.g. Observer 	Pattern, review and subscribe to event based 	architecture.
+4. NAMES
+--Avoid Encodings
+--Expand Abbreviations
+--Use Clear Distinctions parts/user = organ/viewer
+--No "Magic" values
+--Be Descriptive
+
+**BAD EXAMPLE
+import { sub } from 
+./yt';
+function run(unit) {
+  const p = unit.partList[42];
+  p.sub.lsn((w) => {
+    if (w === 'banana'){
+      sub(unit);
+    }
+  });
+}
+
+**GOOD EXAMPLE
+import { forToSubscribe } from ./youtube';
+const BRAIN_INDEX = 42;
+const TRIGGER_WORD = 'banana':
+function brainwashToSubscribeOnTriggerWord(viewer) {
+  const brain = viewer.organs[BRAIN_INDEX];
+  brain.subconscious.listenForWord((word) => {
+    if (word === TRIGGER_WORD){
+      forceToSubscribe(View);
+    }
+  });
+}
+
+5. TESTS
+--End User Tester
+--Unti test to verify operations of modules
+--Integration test to verify interactions between those modules. Provide validation rather than behavior
+--Apply the solid principles from earlier to make testing easier.
+
+6. TIME.realistic
+--Triple the time it will take for the task. (Always true.)
+
+7.SPEED.appropriate
+--Dont' rush. Do it good, you'll save on the backend.
+
+
+
+
+
+APPENDIX A
+LIST OF PATTERN BY TYPE:
+
+--CREATION PATTERN--
+Abstract FActory
+Builder
+Dependency Injection
+*FActory Method*
+Lazy Intantiation
+Multiton
+Object Pool
+Prototype
+RAII
+Singleton
+
+--Structural Pattern--
+Adapter
+Bridge
+Compsite
+Decorator
+Delegation
+Extension Object
+Facade
+Flyweight
+Front Controller
+Marker
+Module
+Proxy
+Translator
+Twin
+
+--Behavioral Pattern
+Blackboard
+Chain of Responsibility
+Command
+Fluent Interface
+Interpreter
+Iterator
+Memento
+Null Object
+Observer
+Servant
+Specification
+State
+Strategy
+Template Method
+Visitor
+
+

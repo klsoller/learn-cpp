@@ -33,6 +33,9 @@
     <Text Include="ch2.2.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="..\Programming Principles.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Log.h">
