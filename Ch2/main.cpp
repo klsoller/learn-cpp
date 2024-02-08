@@ -17,6 +17,8 @@
 
 #include <iostream>//	WHY: Used for console I/
 #include <cstdlib>	//	WHY: Used for main() returns, EXIT_SUCCESS.
+#include "Log.h"
+
 
 // TEST DECLARATION: This is a declaration used to call a function in another file.
 void Log(const char* message);
